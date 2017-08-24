@@ -1,0 +1,16 @@
+<?php
+
+namespace uSendit\API;
+
+class ConfirmAccountStatus
+{
+    const __default = 'SUCCESS';
+    const SUCCESS = 'SUCCESS';
+    const USER_UNKNOWN = 'USER_UNKNOWN';
+    const EMPTY_CONFIRMATION_CODE = 'EMPTY_CONFIRMATION_CODE';
+    const INVALID_CONFIRMATION_CODE = 'INVALID_CONFIRMATION_CODE';
+    const ACCOUNT_ALREADY_CONFIRMED = 'ACCOUNT_ALREADY_CONFIRMED';
+    const GENERIC_ERROR = 'GENERIC_ERROR';
+
+
+}

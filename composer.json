@@ -1,0 +1,35 @@
+{
+  "name": "s3rgiosan/usendit-api-php",
+  "description": "PHP uSendit API Wrapper",
+  "type": "library",
+  "keywords": [
+    "usendit",
+    "sms",
+    "marketing"
+  ],
+  "homepage": "https://github.com/s3rgiosan/usendit-api-php",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Sérgio Santos",
+      "email": "me@s3rgiosan.com",
+      "homepage": "https://github.com/s3rgiosan"
+    }
+  ],
+  "support": {
+    "issues": "https://github.com/s3rgiosan/usendit-api-php/issues",
+    "source": "https://github.com/s3rgiosan/usendit-api-php"
+  },
+  "autoload": {
+    "psr-4": {
+      "uSendit\\API\\": "src/"
+    }
+  },
+  "autoload-dev": {},
+  "require": {
+    "besimple/soap-client": "^0.2.6"
+  },
+  "require-dev": {
+    "wsdl2phpgenerator/wsdl2phpgenerator": "^3.4"
+  }
+}
