@@ -2,7 +2,7 @@
 
 namespace uSendit\API;
 
-class RemoteUsendit extends \SoapClient
+class RemoteUsendit extends \BeSimple\SoapClient\SoapClient
 {
 
     /**
