@@ -27,9 +27,8 @@
   },
   "autoload-dev": {},
   "require": {
-    "besimple/soap-client": "^0.2.6"
-  },
-  "require-dev": {
+    "besimple/soap-client": "^0.2.6",
     "wsdl2phpgenerator/wsdl2phpgenerator": "^3.4"
-  }
+  },
+  "require-dev": {}
 }

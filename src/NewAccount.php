@@ -46,11 +46,6 @@ class NewAccount
     protected $AllowMarketingCampaigns = null;
 
     /**
-     * @var string $Sender
-     */
-    protected $Sender = null;
-
-    /**
      * @param Country $Country
      * @param HowDidYouMeetUs $HowDidYouFindUs
      * @param boolean $AllowMarketingCampaigns
@@ -203,24 +198,6 @@ class NewAccount
     public function setAllowMarketingCampaigns($AllowMarketingCampaigns)
     {
       $this->AllowMarketingCampaigns = $AllowMarketingCampaigns;
-      return $this;
-    }
-
-    /**
-     * @return string
-     */
-    public function getSender()
-    {
-      return $this->Sender;
-    }
-
-    /**
-     * @param string $Sender
-     * @return \uSendit\API\NewAccount
-     */
-    public function setSender($Sender)
-    {
-      $this->Sender = $Sender;
       return $this;
     }
 
