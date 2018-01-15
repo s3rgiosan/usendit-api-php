@@ -62,69 +62,6 @@
         ]
     },
     {
-        "name": "besimple/soap-common",
-        "version": "v0.2.6",
-        "version_normalized": "0.2.6.0",
-        "target-dir": "BeSimple/SoapCommon",
-        "source": {
-            "type": "git",
-            "url": "https://github.com/BeSimple/BeSimpleSoapCommon.git",
-            "reference": "08aa78c7f1cae4b23cce5e8928dca7243ca4e4fa"
-        },
-        "dist": {
-            "type": "zip",
-            "url": "https://api.github.com/repos/BeSimple/BeSimpleSoapCommon/zipball/08aa78c7f1cae4b23cce5e8928dca7243ca4e4fa",
-            "reference": "08aa78c7f1cae4b23cce5e8928dca7243ca4e4fa",
-            "shasum": ""
-        },
-        "require": {
-            "ass/xmlsecurity": "~1.0",
-            "ext-soap": "*",
-            "php": ">=5.3.0"
-        },
-        "require-dev": {
-            "ext-mcrypt": "*",
-            "mikey179/vfsstream": "~1.0"
-        },
-        "time": "2014-08-14T19:40:13+00:00",
-        "type": "library",
-        "extra": {
-            "branch-alias": {
-                "dev-master": "0.2-dev"
-            }
-        },
-        "installation-source": "dist",
-        "autoload": {
-            "psr-0": {
-                "BeSimple\\SoapCommon": ""
-            }
-        },
-        "notification-url": "https://packagist.org/downloads/",
-        "license": [
-            "MIT"
-        ],
-        "authors": [
-            {
-                "name": "Andreas Schamberger",
-                "email": "mail@andreass.net"
-            },
-            {
-                "name": "Christian Kerl",
-                "email": "christian-kerl@web.de"
-            },
-            {
-                "name": "Francis Besset",
-                "email": "francis.besset@gmail.com"
-            }
-        ],
-        "description": "Build and consume SOAP Common based web services",
-        "homepage": "https://github.com/BeSimple/BeSimpleSoapCommon",
-        "keywords": [
-            "soap",
-            "soap-common"
-        ]
-    },
-    {
         "name": "besimple/soap-client",
         "version": "v0.2.6",
         "version_normalized": "0.2.6.0",
@@ -191,18 +128,137 @@
         ]
     },
     {
-        "name": "symfony/polyfill-iconv",
-        "version": "v1.5.0",
-        "version_normalized": "1.5.0.0",
+        "name": "besimple/soap-common",
+        "version": "v0.2.6",
+        "version_normalized": "0.2.6.0",
+        "target-dir": "BeSimple/SoapCommon",
         "source": {
             "type": "git",
-            "url": "https://github.com/symfony/polyfill-iconv.git",
-            "reference": "1ea0e08453819ecc7130e1fb0ee10862c2f33ed0"
+            "url": "https://github.com/BeSimple/BeSimpleSoapCommon.git",
+            "reference": "08aa78c7f1cae4b23cce5e8928dca7243ca4e4fa"
         },
         "dist": {
             "type": "zip",
-            "url": "https://api.github.com/repos/symfony/polyfill-iconv/zipball/1ea0e08453819ecc7130e1fb0ee10862c2f33ed0",
-            "reference": "1ea0e08453819ecc7130e1fb0ee10862c2f33ed0",
+            "url": "https://api.github.com/repos/BeSimple/BeSimpleSoapCommon/zipball/08aa78c7f1cae4b23cce5e8928dca7243ca4e4fa",
+            "reference": "08aa78c7f1cae4b23cce5e8928dca7243ca4e4fa",
+            "shasum": ""
+        },
+        "require": {
+            "ass/xmlsecurity": "~1.0",
+            "ext-soap": "*",
+            "php": ">=5.3.0"
+        },
+        "require-dev": {
+            "ext-mcrypt": "*",
+            "mikey179/vfsstream": "~1.0"
+        },
+        "time": "2014-08-14T19:40:13+00:00",
+        "type": "library",
+        "extra": {
+            "branch-alias": {
+                "dev-master": "0.2-dev"
+            }
+        },
+        "installation-source": "dist",
+        "autoload": {
+            "psr-0": {
+                "BeSimple\\SoapCommon": ""
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "Andreas Schamberger",
+                "email": "mail@andreass.net"
+            },
+            {
+                "name": "Christian Kerl",
+                "email": "christian-kerl@web.de"
+            },
+            {
+                "name": "Francis Besset",
+                "email": "francis.besset@gmail.com"
+            }
+        ],
+        "description": "Build and consume SOAP Common based web services",
+        "homepage": "https://github.com/BeSimple/BeSimpleSoapCommon",
+        "keywords": [
+            "soap",
+            "soap-common"
+        ]
+    },
+    {
+        "name": "symfony/options-resolver",
+        "version": "v3.4.3",
+        "version_normalized": "3.4.3.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/symfony/options-resolver.git",
+            "reference": "f31f4d3ce4eaf7597abc41bd5ba53d634c2fdb0e"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/symfony/options-resolver/zipball/f31f4d3ce4eaf7597abc41bd5ba53d634c2fdb0e",
+            "reference": "f31f4d3ce4eaf7597abc41bd5ba53d634c2fdb0e",
+            "shasum": ""
+        },
+        "require": {
+            "php": "^5.5.9|>=7.0.8"
+        },
+        "time": "2018-01-03T07:37:34+00:00",
+        "type": "library",
+        "extra": {
+            "branch-alias": {
+                "dev-master": "3.4-dev"
+            }
+        },
+        "installation-source": "dist",
+        "autoload": {
+            "psr-4": {
+                "Symfony\\Component\\OptionsResolver\\": ""
+            },
+            "exclude-from-classmap": [
+                "/Tests/"
+            ]
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "Fabien Potencier",
+                "email": "fabien@symfony.com"
+            },
+            {
+                "name": "Symfony Community",
+                "homepage": "https://symfony.com/contributors"
+            }
+        ],
+        "description": "Symfony OptionsResolver Component",
+        "homepage": "https://symfony.com",
+        "keywords": [
+            "config",
+            "configuration",
+            "options"
+        ]
+    },
+    {
+        "name": "symfony/polyfill-iconv",
+        "version": "v1.6.0",
+        "version_normalized": "1.6.0.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/symfony/polyfill-iconv.git",
+            "reference": "7a84ccdb8c953ee274c96dd6bde778d873fc824a"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/symfony/polyfill-iconv/zipball/7a84ccdb8c953ee274c96dd6bde778d873fc824a",
+            "reference": "7a84ccdb8c953ee274c96dd6bde778d873fc824a",
             "shasum": ""
         },
         "require": {
@@ -211,11 +267,11 @@
         "suggest": {
             "ext-iconv": "For best performance"
         },
-        "time": "2017-06-14T15:44:48+00:00",
+        "time": "2017-10-11T12:05:26+00:00",
         "type": "library",
         "extra": {
             "branch-alias": {
-                "dev-master": "1.5-dev"
+                "dev-master": "1.6-dev"
             }
         },
         "installation-source": "dist",
@@ -249,62 +305,6 @@
             "polyfill",
             "portable",
             "shim"
-        ]
-    },
-    {
-        "name": "symfony/options-resolver",
-        "version": "v3.3.9",
-        "version_normalized": "3.3.9.0",
-        "source": {
-            "type": "git",
-            "url": "https://github.com/symfony/options-resolver.git",
-            "reference": "ee4e22978fe885b54ee5da8c7964f0a5301abfb6"
-        },
-        "dist": {
-            "type": "zip",
-            "url": "https://api.github.com/repos/symfony/options-resolver/zipball/ee4e22978fe885b54ee5da8c7964f0a5301abfb6",
-            "reference": "ee4e22978fe885b54ee5da8c7964f0a5301abfb6",
-            "shasum": ""
-        },
-        "require": {
-            "php": "^5.5.9|>=7.0.8"
-        },
-        "time": "2017-07-29T21:54:42+00:00",
-        "type": "library",
-        "extra": {
-            "branch-alias": {
-                "dev-master": "3.3-dev"
-            }
-        },
-        "installation-source": "dist",
-        "autoload": {
-            "psr-4": {
-                "Symfony\\Component\\OptionsResolver\\": ""
-            },
-            "exclude-from-classmap": [
-                "/Tests/"
-            ]
-        },
-        "notification-url": "https://packagist.org/downloads/",
-        "license": [
-            "MIT"
-        ],
-        "authors": [
-            {
-                "name": "Fabien Potencier",
-                "email": "fabien@symfony.com"
-            },
-            {
-                "name": "Symfony Community",
-                "homepage": "https://symfony.com/contributors"
-            }
-        ],
-        "description": "Symfony OptionsResolver Component",
-        "homepage": "https://symfony.com",
-        "keywords": [
-            "config",
-            "configuration",
-            "options"
         ]
     },
     {
